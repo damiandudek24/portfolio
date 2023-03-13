@@ -2,9 +2,9 @@
 
 //Łączenie z bazą danych
 $servername = "localhost";
-$username = "${{env.PASS1}}";
-$password = "${{env.PASS2}}";
-$my_db    = "${{env.PASS3}}";
+$username = "${{ secrets.PASS1 }}";
+$password = "${{ secrets.PASS2 }}";
+$my_db    = "${{ secrets.PASS3 }}";
 $port = '3306'; //domyślnie jest to port 3306
 
 try{
