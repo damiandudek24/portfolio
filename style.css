@@ -71,6 +71,11 @@ h1
     color: #41403e;
 }
 
+.ps_hlp
+{
+    display: none;
+}
+
 .login label
 {
 	top: 0px;
