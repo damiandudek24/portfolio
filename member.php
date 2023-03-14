@@ -17,7 +17,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <title>Panel</title>
 </head>
 
@@ -77,7 +77,7 @@
                 type="text" 
                 placeholder="Przyjęcia produktu" 
             />
-            <button type="submit" class="add_btn">Przyjmij</button>
+            <button type="submit" class="add_btn1">Przyjmij</button>
         </form>
 
         <br>
@@ -100,7 +100,7 @@
                 type="text" 
                 placeholder="Wydanie produktu" 
             />
-            <button type="submit" class="add_btn">Wydaj</button>
+            <button type="submit" class="add_btn1">Wydaj</button>
         </form>
 
         
@@ -108,9 +108,12 @@
         
 
         <form action="logout.php" name="logout" class="form" method="POST">
-            <button type="submit" action="logout.php" class="add_btn" style="padding: 20px">Wyloguj</button>
+            <button type="submit" action="logout.php" class="add_btn1" style="padding: 20px">Wyloguj</button>
         </form>
 
     </section>
+    <footer>
+        <center><p>Damian Dudek</p></center>
+    </footer>
 </body>
 </html>
